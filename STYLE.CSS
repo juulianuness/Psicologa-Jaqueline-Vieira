@@ -14,25 +14,19 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 1.5rem; /* Remove o padding padrão */
+}
 
-    /* julia comentando*/
-
-    .logo-container {
-  position: center;
-  top: 0;
-  left: 0;
-  width: ;
+.logo-container {
+  width: 100%;
   text-align: center;
-
 }
 
 .logo-container img {
-  max-width: 30rem; /* Ajuste o tamanho máximo da imagem */
-  position: center;
-  padding: 0rem;
-  margin-top: 7rem;
+  width: 100%;
+  max-width: 300px; /* Controla o tamanho máximo da logo */
+  height: auto;
+  margin-top: 4rem;
 }
-
 
 }
 
